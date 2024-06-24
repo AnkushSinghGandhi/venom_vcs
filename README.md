@@ -27,3 +27,83 @@
   </a>
 </p>
 
+Certainly! Here's a sample README.md file for your Venom GitHub repository:
+
+---
+
+# Venom
+
+Venom is a simple version control system (VCS) implemented in C, inspired by Git. It provides basic versioning capabilities for managing changes to files within a repository.
+
+## Features
+
+- **Initialization**: Initialize a new Venom repository.
+- **Adding Files**: Add files to the repository's staging area.
+- **Committing**: Create commits with a commit message and store changes in the repository.
+- **Showing Commit Details**: View details of a specific commit.
+- **Diffing**: Compare changes between commits with line-by-line diffing and color coding.
+
+## Getting Started
+
+To get started with Venom, clone the repository and compile the source code:
+
+```bash
+git clone <repository_url>
+cd venom
+make
+```
+
+### Usage
+
+#### Initialize a Repository
+
+```bash
+./venom init
+```
+
+#### Add Files
+
+```bash
+./venom add <file>
+```
+
+#### Commit Changes
+
+```bash
+./venom commit "Commit message"
+```
+
+#### Show Commit Details
+
+```bash
+./venom show <commit_id>
+```
+
+#### Compare Commits
+
+```bash
+./venom diff <commit_id1> <commit_id2>
+```
+
+## Roadmap
+
+- [ ] Branching and Merging
+- [ ] Remote Repositories (Push/Pull/Fetch)
+- [ ] Tags
+- [ ] Undo/Revert Changes
+- [ ] History Visualization (Log)
+- [ ] Stashing
+- [ ] Enhanced Diffing (Word/Character-level)
+- [ ] Configuration and Hooks
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Feel free to customize this README.md to include more specific details about Venom's implementation, additional features, or any other relevant information for potential users and contributors. This README provides a basic structure to showcase Venom's functionality and how to use it effectively.
